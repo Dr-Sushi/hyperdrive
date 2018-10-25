@@ -3,6 +3,8 @@ import sbt._
 import sbtrelease.Version
 
 name := "hello"
+version := "0.1.0"
+
 
 resolvers += Resolver.sonatypeRepo("public")
 scalaVersion := "2.12.6"
